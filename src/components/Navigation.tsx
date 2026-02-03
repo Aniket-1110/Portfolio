@@ -105,7 +105,7 @@ export default function Navigation() {
           {/* Logo */}
           <a 
             href="#" 
-            className="font-mono text-sm tracking-[0.12em] text-[#00F0FF] uppercase hover:text-[#F4F6FF] transition-colors -ml-18 md:-ml-16"
+            className="font-mono text-sm tracking-[0.12em] text-[#00F0FF] uppercase hover:text-[#F4F6FF] transition-colors"
             onClick={(e) => {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: 'smooth' });

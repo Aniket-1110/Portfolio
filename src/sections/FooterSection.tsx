@@ -84,7 +84,7 @@ export default function FooterSection() {
     >
       <div className="flex flex-col lg:flex-row lg:justify-between gap-12">
         {/* Large Wordmark */}
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 -ml-4 md:-ml-8">
           <h2
             ref={wordmarkRef}
             className="text-[clamp(48px,10vw,140px)] font-bold text-outline leading-none"
